@@ -1,0 +1,68 @@
+
+h2,h3{
+  display: inline-block;
+  margin: 10px;
+  color: white; /* Text color */
+}
+header{
+  background-color: #333; /* Background color */
+}
+.add-to-cart-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+  margin-right: 20%;
+  margin-top: 12px;
+}
+body {
+  background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+footer{
+  position: fixed; /* Fixed position to keep it at the bottom */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  background-color: #333; /* Background color */
+  color: white; /* Text color */
+  text-align: center; /* Center the content horizontally */
+ margin-top: 500px;
+}
+.container {
+  max-width: 200px;
+  background-color: rgb(207, 160, 29);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-left: 20px;
+  
+}
+.image {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.details {
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
